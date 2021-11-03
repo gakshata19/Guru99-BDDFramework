@@ -1,0 +1,7 @@
+
+Scenario: Test Login                          # Features/Login.feature:2
+  Given Launch Guru99 Application             # StepDefination.LoginPage.launch_guru99_application()
+  When User enter valid username and password # StepDefination.LoginPage.user_enter_valid_username_and_password()
+  Then User click on login button             # StepDefination.LoginPage.user_click_on_login_button()
+  Then User is on home page                   # StepDefination.LoginPage.user_is_on_home_page()
+  And Close browser                           # StepDefination.LoginPage.close_browser()

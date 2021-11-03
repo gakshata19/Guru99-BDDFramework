@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-19T10:35:40.104Z",
+        "line": 2,
+        "name": "Test Login",
+        "description": "",
+        "id": "test-guru99-application;test-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4904993900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Guru99 Application",
+            "match": {
+              "location": "StepDefination.LoginPage.launch_guru99_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167471000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "StepDefination.LoginPage.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1643414500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "StepDefination.LoginPage.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51072400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on home page",
+            "match": {
+              "location": "StepDefination.LoginPage.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3151841000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close browser",
+            "match": {
+              "location": "StepDefination.LoginPage.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Guru99 Application",
+    "description": "",
+    "id": "test-guru99-application",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
